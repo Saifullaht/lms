@@ -1,0 +1,13 @@
+
+
+USER / Trainer
+
+1.First Name
+2.Last Name
+3.Education
+4.CNIC
+5.Email
+6.Profile Picture
+7.Address
+8.Gender
+9.role - trainer,student
