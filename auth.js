@@ -35,7 +35,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
         console.log("credentials=>", credentials);
 
         let res = await fetch(
-          `lms-ashy-seven.vercel.app/api/user/login`,
+          `https://lms-ashy-seven.vercel.app/api/user/login`,
           {
             method: "POST",
             body: JSON.stringify({

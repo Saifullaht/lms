@@ -5,12 +5,12 @@ import HeroSection from "@/components/HeroSection/HeroSection";
 import { auth } from "../../auth";
 
 export default async function Home() {
-  // const { admissions } = await getAdmissions("open");
+  const { admissions } = await getAdmissions("open");
   const session = await auth();
   return (
     <div>
       <HeroSection />
-      {/* <CourseSection session={session} admissions={admissions} /> */}
+      <CourseSection session={session} admissions={admissions} />
     </div>
   );
 }
